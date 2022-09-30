@@ -1,0 +1,25 @@
+#calculatorBody {
+    background-color: black;
+    width: 35vw;
+    height: 70vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+#screen {
+    width: 34vw;
+    height: 12vh;
+    flex: 0 0 auto;
+    background-color:beige;
+
+}
+button {
+    width: 8vw;
+    height: 11vh;
+    flex: 1 1 auto;
+}
+
+button#clear {
+    width: 16.8vw;
+}
