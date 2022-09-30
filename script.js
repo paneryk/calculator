@@ -60,12 +60,12 @@ window.addEventListener('keydown', (evt) => {
 
 buttons.addEventListener('click', (e) => { //listening to buttons ('click')
     const targetButton = e.target;
-    
-    listening(targetButton);
+    if (targetButton.getAttribute('id') != 'buttons') listening(targetButton);
 });
 
 const listening = function(targetButton) {
-    if (targetButton.getAttribute('class') === 'functional') {
+    if (targetButton.classList.contains('functional')) {
+        console.log(targetButton);
         checkFunction(targetButton.getAttribute('id'));
     }
     else {
