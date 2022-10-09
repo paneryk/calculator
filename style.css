@@ -51,12 +51,6 @@ button {
 button:hover {
     filter: brightness(90%);
 }
-
-button#clear {
-    width: 50%;
-    background-color: rgb(249, 168, 47);
-    color: rgb(255, 250, 241);
-}
 .functional {
     background-color: rgb(244, 213, 166);
 }
